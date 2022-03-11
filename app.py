@@ -69,11 +69,5 @@ def delete(Sno):                  # now passing that serial no to delete functio
 
 # Router point 2
 
-@app.route('/show')
-def Products():
-    allTodo=Todo.query.all()
-    print(allTodo)
-    return 'Hello,under Products!'
-
 if __name__ =="__main__":
     app.run(debug=TRUE)    # Running app and in debug =true will show error if any 
