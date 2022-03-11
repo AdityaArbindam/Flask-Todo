@@ -5,7 +5,7 @@ from flask import Flask, redirect , render_template, request
 from datetime import datetime               # this has been used inside the one of the columns in DB
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import desc    # importing SQLAlchemy to config with DB , it helps in communicating with DB using Python. 
-import tkinter
+import tkinter as TK 
 app = Flask(__name__)                      
 
 # Confi with the database  and giving name as Todo
